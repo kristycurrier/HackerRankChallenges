@@ -4,7 +4,7 @@ class Solution
 {
     public static void Main(string[] args)
     {
-        Console.WriteLine("Hello world!");
-        Console.ReadKey();  
+        var hello = new HelloWorld();
+        hello.SayHello();
     }
 }
